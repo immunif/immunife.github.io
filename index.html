@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> 본이너스 영상 확인 </title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #111;
+    color: #eee;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: #ccc;
+  }
+  video {
+    width: 100%;
+    max-width: 960px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    background: #000;
+  }
+</style>
+</head>
+<body>
+  <h1>★이뮤니프 본이너스★</h1>
+  <video controls preload="auto">
+    <source src="https://github.com/immunif/immunif.github.io/releases/download/v1.0/default.mp4" type="video/mp4">
+    브라우저가 video 태그를 지원하지 않습니다.
+  </video>
+</body>
+</html>
